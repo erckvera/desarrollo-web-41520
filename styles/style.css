@@ -221,25 +221,15 @@ nav {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     list-style-type: none;
-    transition: padding 0.5s, background-color 1s;
   }
 
   .hero-text button:hover {
-    background-color: #6aa06c;
-  }
-
-  .hero-text button:active {
-    padding:25px 48px;
+    background-color: #618262;
   }
 
   .hero-text a {
     text-decoration: none;
     color: #e13f0e;
-    transition: color 1s;
-  }
-
-  .hero-text a:hover {
-    color:white;
   }
 
   .hero-text p {
