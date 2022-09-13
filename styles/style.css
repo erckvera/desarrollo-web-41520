@@ -221,15 +221,25 @@ nav {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     list-style-type: none;
+    transition: padding 0.5s, background-color 1s;
   }
 
   .hero-text button:hover {
-    background-color: #618262;
+    background-color: #6aa06c;
+  }
+
+  .hero-text button:active {
+    padding:25px 48px;
   }
 
   .hero-text a {
     text-decoration: none;
     color: #e13f0e;
+    transition: color 1s;
+  }
+
+  .hero-text a:hover {
+    color:white;
   }
 
   .hero-text p {
@@ -242,6 +252,35 @@ nav {
   /* FIN DEL HEADER */
 
   /* FEATURED SECTION */
+
+  .bg-animation {
+    background-color: yellow;
+    animation-name: efectoUno;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 30s;
+  }
+
+  @keyframes efectoUno {
+    0% {
+        background-color: coral;
+    }
+    17% {
+        background-color: maroon;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: purple;
+    }
+    75% {
+        background-color: plum;
+    }
+    100% {
+        background-color: indianred;
+    }
+  }
 
   .featured-section {
       display: flex;
